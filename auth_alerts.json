@@ -1,0 +1,45 @@
+[
+  {
+    "compromised_user": "corp_finance_root",
+    "attacker_ip": "203.0.113.111",
+    "severity": "CRITICAL",
+    "vector": "Ransomware Payload Access Blueprint",
+    "mitigated": false
+  },
+  {
+    "compromised_user": "cloud_db_operator",
+    "attacker_ip": "198.51.100.5",
+    "severity": "HIGH",
+    "vector": "Anomalous Off-Hours SQL Data Exfiltration",
+    "mitigated": true
+  },
+  {
+    "compromised_user": "c_suite_executive",
+    "attacker_ip": "192.0.2.77",
+    "severity": "CRITICAL",
+    "vector": "Session Token Hijacking & Authenication Bypass",
+    "mitigated": false
+  },
+  {
+    "id": "INC-31752",
+    "severity": "CRITICAL",
+    "event_type": "CREDENTIAL_STUFFING",
+    "description": "Manually injected mock threat: Credential Stuffing detected on ENDPOINT-ACCT-07. Source identifier: 129.168.1.200.",
+    "asset": "ENDPOINT-ACCT-07",
+    "username": "unknown",
+    "source_ip": "129.168.1.200",
+    "timestamp": "2026-10-22T20:18:43Z",
+    "mitigated": false
+  },
+  {
+    "id": "INC-28571",
+    "severity": "CRITICAL",
+    "event_type": "SQL_INJECTION_ATTEMPT",
+    "description": "Manually injected mock threat: Sql Injection Attempt detected on SSO-PORTAL-PROD. Source identifier: 129.168.1.200.",
+    "asset": "SSO-PORTAL-PROD",
+    "username": "unknown",
+    "source_ip": "129.168.1.200",
+    "timestamp": "2026-10-22T20:18:45Z",
+    "mitigated": false
+  }
+]
